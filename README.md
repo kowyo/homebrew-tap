@@ -1,4 +1,4 @@
-# homebrew-mini-agent
+# homebrew-tap
 
 Homebrew tap for [mini-agent](https://github.com/kowyo/mini-agent) - A minimal agent running in your terminal.
 
@@ -6,7 +6,7 @@ Homebrew tap for [mini-agent](https://github.com/kowyo/mini-agent) - A minimal a
 
 ```bash
 # Add the tap
-brew tap kowyo/mini-agent
+brew tap kowyo/tap
 
 # Install mini-agent
 brew install mini-agent
@@ -15,7 +15,7 @@ brew install mini-agent
 Or in one command:
 
 ```bash
-brew install kowyo/mini-agent/mini-agent
+brew install kowyo/tap/mini-agent
 ```
 
 ## Requirements
@@ -43,7 +43,7 @@ brew upgrade mini-agent
 
 ```bash
 brew uninstall mini-agent
-brew untap kowyo/mini-agent
+brew untap kowyo/tap
 ```
 
 ## Formula Details
@@ -57,4 +57,4 @@ brew untap kowyo/mini-agent
 ## Resources
 
 - Project Homepage: https://github.com/kowyo/mini-agent
-- Tap Repository: https://github.com/kowyo/homebrew-mini-agent
+- Tap Repository: https://github.com/kowyo/homebrew-tap
